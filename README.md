@@ -47,7 +47,7 @@ This python interface allows the selection of points from a point cloud and tran
       e. Scroll to zoom in and zoom out.<br />
       f. ```Ctrl + Left Click``` and drag the mouse to **Pan**.<br />
       g. ```Left Click``` and drag mouse to move the whole Point Cloud.<br />
-      h. Sometimes a point does not register in the Floradig, you can select the same point again.
-    5. Repeat the process, there is no need to select the node again if the node name is same as before.
+      h. Sometimes a point does not register in the Floradig, you can select the same point again.<br /><br />
+    5. Repeat the process, there is no need to select the node again if the node name is same as before.<br />
     6. **Have Fun Digitising!!!**
         
