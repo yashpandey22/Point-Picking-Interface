@@ -44,8 +44,8 @@ This python interface allows the selection of points from a point cloud and tran
       b. ```Shift + +``` to increase the size of picked point.<br />
       c. ```Ctrl + -``` to reduce the size of all the points in the point cloud.<br />
       d. ```Ctrl + +``` to increase the size of all the points in the point cloud.<br />
-      e. Scroll to zoom in and zoom out.
-      f. ```Ctrl + Left Click``` and drag the mouse to **Pan**.
+      e. Scroll to zoom in and zoom out.<br />
+      f. ```Ctrl + Left Click``` and drag the mouse to **Pan**.<br />
       g. ```Left Click``` and drag mouse to move the whole Point Cloud.
       
         
