@@ -5,8 +5,12 @@ This python interface allows the selection of points from a point cloud and tran
   1. Floradig installed and working, with a "ini" file.
   2. Python version 3.7 is required to run the script.
      Download Python: https://www.python.org/downloads/release/python-370/
+  3. Install Open3D, enter the following command in the cmd: 
+     ```
+     pip install open3d
+     ```
 
-# How to use the script
+# How to use the interface
   ## Step 1:
    1. Execute Floradig software.
    2. Select digitiser to "Keyboard Digitiser"
@@ -24,5 +28,24 @@ This python interface allows the selection of points from a point cloud and tran
       |*How to Create a New File*|
       
    4. Add Reference Axes Manually.
-
+  
+  ## Step 2:
+   1. Download and keep both the python files in the same folder.
+   2. Run parent.py from cmd.
+   3. Give the Path to the point cloud.
+  
+  ## Step 3:
+   1. Once the above steps are done properly and no errors received, you're ready to start digitising.
+   2. Select the first node (node 0 usually) by pressing "n0" on keyboard.
+   3. Select the points, on the point cloud. By pressing ```Shift + Left Click```
+   4. The first selected point will be huge, don't get scared.<br />
+      ### How to navigate through the Point Cloud <br />
+      a. ```Shift + -``` to reduce the size of picked point.<br />
+      b. ```Shift + +``` to increase the size of picked point.<br />
+      c. ```Ctrl + -``` to reduce the size of all the points in the point cloud.<br />
+      d. ```Ctrl + +``` to increase the size of all the points in the point cloud.<br />
+      e. Scroll to zoom in and zoom out.
+      f. ```Ctrl + Left Click``` and drag the mouse to **Pan**.
+      g. ```Left Click``` and drag mouse to move the whole Point Cloud.
+      
         
