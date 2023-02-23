@@ -12,5 +12,7 @@ This python interface allows the selection of points from a point cloud and tran
    2. Select digitiser to "Keyboard Digitiser"
       Digitiser -> Select Digitiser (Alt+Z) -> Keyboard mock digitiser -> Set as current -> Ok.
       
-      ![Select Digitiser](https://user-images.githubusercontent.com/42251021/220800033-d39b2ba7-2fb5-413d-b2a5-154d79ef150e.png)
+      |![Select Digitiser](https://user-images.githubusercontent.com/42251021/220800033-d39b2ba7-2fb5-413d-b2a5-154d79ef150e.png) | 
+      |:--:|
+      |*Select Digitiser*|
         
