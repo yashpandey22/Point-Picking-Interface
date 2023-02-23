@@ -22,5 +22,7 @@ This python interface allows the selection of points from a point cloud and tran
       |![2](https://user-images.githubusercontent.com/42251021/220801903-e0711069-038a-451f-8c31-3e0d4660d3b0.PNG) |
       |:--:|
       |*How to Create a New File*|
+      
+   4. Add Reference Axes Manually.
 
         
