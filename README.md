@@ -46,6 +46,8 @@ This python interface allows the selection of points from a point cloud and tran
       d. ```Ctrl + +``` to increase the size of all the points in the point cloud.<br />
       e. Scroll to zoom in and zoom out.<br />
       f. ```Ctrl + Left Click``` and drag the mouse to **Pan**.<br />
-      g. ```Left Click``` and drag mouse to move the whole Point Cloud.
-      
+      g. ```Left Click``` and drag mouse to move the whole Point Cloud.<br />
+      h. Sometimes a point does not register in the Floradig, you can select the same point again.
+    5. Repeat the process, there is no need to select the node again if the node name is same as before.
+    6. **Have Fun Digitising!!!**
         
