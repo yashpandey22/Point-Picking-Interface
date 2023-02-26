@@ -5,9 +5,11 @@ This python interface allows the selection of points from a point cloud and tran
   1. Floradig installed and working, with a "ini" file.
   2. Python version 3.7 is required to run the script.
      Download Python: https://www.python.org/downloads/release/python-370/
-  3. Install Open3D, enter the following command in the cmd: 
+  3. Install following libraries, enter the following command in the cmd: 
      ```
      pip install open3d
+     pip install pywin32
+     
      ```
 
 # How to use the interface
