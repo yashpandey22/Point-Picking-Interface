@@ -1,5 +1,3 @@
-import numpy as np
-import copy
 import open3d as o3d
 import subprocess
 import os
