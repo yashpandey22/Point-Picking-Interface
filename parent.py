@@ -6,6 +6,13 @@ from win32gui import GetWindowText, GetForegroundWindow
 import win32com.client
 from time import sleep
 
+path = input(r"Enter the path of point cloud: ")
+while(os.path.exists(path) == False):
+    path = input("Path entered does not exists, please enter again: ")
+f = open('path_file.txt', 'w')
+f.write(path)
+f.close()
+
 shell = win32com.client.Dispatch("WScript.Shell")
 
 p = Popen([sys.executable, '-u', 'pick_points.py'], stdout = PIPE, stderr = STDOUT, bufsize = 1)
@@ -27,5 +34,5 @@ with p.stdout:
                 shell.SendKeys(pos)
             shell.SendKeys('n2')            
         else:
-            print("This point was not sent, you can click again on the last point again:" temp)
+            print("This point was not sent, you can click again on the last point again:", temp)
 p.wait()

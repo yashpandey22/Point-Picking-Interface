@@ -12,9 +12,10 @@ def pick_points(pcd):
     vis.destroy_window()
     return vis.get_picked_points()
 
-path = input(r"Enter the path of point cloud: ")
-while(os.path.exists(path) == False):
-    path = input("Path entered does not exists, please enter again: ")
+f = open("path_file.txt", "r")
+path = f.read()
+f.close()
+os.remove('path_file.txt')
     
 pcd = o3d.io.read_point_cloud(path)
 pick_points(pcd)
