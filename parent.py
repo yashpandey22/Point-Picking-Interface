@@ -32,7 +32,6 @@ with p.stdout:
             else:
                 shell.AppActivate('Hierarchy')
                 shell.SendKeys(pos)
-            shell.SendKeys('n2')            
         else:
             print("This point was not sent, you can click again on the last point again:", temp)
 p.wait()
