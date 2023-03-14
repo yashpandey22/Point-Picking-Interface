@@ -29,7 +29,7 @@ This python interface allows the selection of points from a point cloud and tran
       |:--:|
       |*How to Create a New File*|
       
-   4. Add Reference Axes Manually. (# followed by reference axes (numbers separated by commas without spaces); change H & V axes individually)
+   4. Add Reference Axes Manually. (# followed by reference axes, numbers separated by commas without spaces; change H & V axes individually)
   
   ## Step 2:
    1. Download and keep both the python files in the same folder.
