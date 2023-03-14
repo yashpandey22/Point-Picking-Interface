@@ -11,6 +11,7 @@ This python interface allows the selection of points from a point cloud and tran
      pip install pywin32
      
      ```
+  Resources for Open3D: http://www.open3d.org/docs/release/getting_started.html
 
 # How to use the interface
   ## Step 1:
