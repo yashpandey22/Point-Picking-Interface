@@ -33,7 +33,10 @@ This python interface allows the selection of points from a point cloud and tran
   
   ## Step 2:
    1. Download and keep both the python files in the same folder.
-   2. Run parent.py from cmd.
+   2. Run parent.py from cmd.<br />
+    ```
+     python parent.py
+    ```
    3. Give the Path to the point cloud.
   
   ## Step 3:
